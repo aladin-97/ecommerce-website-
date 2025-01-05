@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Gentleman’s Gear</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+           <!-- Logo  -->
+           <a class="navbar-brand" href="index.html">
+            <img src="images/gg.png" alt="Gentleman's Gear Logo" style="height: 30px; max-width: 10 px;">
+            </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="account.html">My Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product List Section -->
+    <section class="py-5">
+        <div class="container" style="display: flex;flex-direction: row;gap: 50px;">
+            <div style="display: flex;">
+                <div >
+
+                    <div  style="display: flex;width: 250px;border:1px solid #0002;box-shadow:0 0 8px #0002;background-color: #eee;margin-top: 70px;padding-right:  25px;border-radius: 15px;">
+                        <ul>
+                            <h3 style="padding: 12px 40px 0 40px;">Filters</h3>
+                            <li style="display: block;"><input type="checkbox"/> Filter 1</li>
+                            <li style="display: block;"><input type="checkbox"/> Filter 2</li>
+                            <li style="display: block;"><input type="checkbox"/> Filter 3</li>
+                        </ul>
+                    </div>
+                   
+                </div>
+            </div>
+            
+            <div>
+            <h2 class="text-center">Our Products</h2>
+            <div class="row">
+                <!-- Product 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Luxury_Watch.avif" class="card-img-top" alt="Luxury Watch">
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury Watch</h5>
+                            <p class="card-text">£150.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Leather_Belt.jpg" class="card-img-top" alt="Leather Belt">
+                        <div class="card-body">
+                            <h5 class="card-title">Leather Belt</h5>
+                            <p class="card-text">£35.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Stylish_Wallet.webp" class="card-img-top" alt="Stylish Wallet">
+                        <div class="card-body">
+                            <h5 class="card-title">Stylish Wallet</h5>
+                            <p class="card-text">£45.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Sunglasses.jpeg" class="card-img-top" alt="Sunglasses">
+                        <div class="card-body">
+                            <h5 class="card-title">Stylish Sunglasses</h5>
+                            <p class="card-text">£70.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Classic_Necktie.jpg" class="card-img-top" alt="Necktie">
+                        <div class="card-body">
+                            <h5 class="card-title">Classic Necktie</h5>
+                            <p class="card-text">£25.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="images/Elegant_Cufflinks.jpeg" class="card-img-top" alt="Cufflinks">
+                        <div class="card-body">
+                            <h5 class="card-title">Elegant Cufflinks</h5>
+                            <p class="card-text">£50.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 Gentleman’s Gear. All Rights Reserved.</p>
+            <a href="terms.html" class="text-white">Terms of Service</a> | <a href="privacy.html" class="text-white">Privacy Policy</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

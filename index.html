@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gentleman’s Gear Store</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
+        <div class="container">
+            <!-- Logo instead of text -->
+            <a class="navbar-brand" href="index.html">
+                <img src="images/gg.png" alt="Gentleman's Gear Logo" style="height: 30px; max-width: 10 px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+                    <li class="nav-item"><a class="nav-link" href="account.html">My Account</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Banner -->
+    <header class="bg-primary text-white text-center py-5" style="background: url('images/background.avif') no-repeat center center/cover; min-height: 100vh;">
+        <div class="container" style="min-height: 100vh;    align-content: center;">
+            <h1>Welcome to Gentleman’s Gear</h1>
+            <p class="lead">Your one-stop shop for stylish and affordable accessories</p>
+            <a href="products.html" class="btn btn-light btn-lg">Shop Now</a>
+        </div>
+    </header>
+
+    <!-- Featured Products Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center">Featured Products</h2>
+            <div class="row">
+                <!-- Featured Product Cards -->
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Luxury_Watch1.jpg" class="card-img-top" alt="Watch">
+                        <div class="card-body">
+                            <h5 class="card-title">Luxury Watch</h5>
+                            <p class="card-text">£150.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Leather_Belt.jpg" class="card-img-top" alt="Belt">
+                        <div class="card-body">
+                            <h5 class="card-title">Leather Belt</h5>
+                            <p class="card-text">£35.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Stylish_Wallet.webp" class="card-img-top" alt="Wallet">
+                        <div class="card-body">
+                            <h5 class="card-title">Stylish Wallet</h5>
+                            <p class="card-text">£45.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/classic_sunglass.jpg" class="card-img-top" alt="Sunglasses">
+                        <div class="card-body">
+                            <h5 class="card-title">Classic Sunglasses</h5>
+                            <p class="card-text">£60.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Selling Products Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Best Selling Products</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Leather_Bracelet.avif" class="card-img-top" alt="Bracelet">
+                        <div class="card-body">
+                            <h5 class="card-title">Leather Bracelet</h5>
+                            <p class="card-text">£30.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Wool_Scarf.jpeg" class="card-img-top" alt="Scarf">
+                        <div class="card-body">
+                            <h5 class="card-title">Wool Scarf</h5>
+                            <p class="card-text">£20.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Stylish_Hat.jpg" class="card-img-top" alt="Hat">
+                        <div class="card-body">
+                            <h5 class="card-title">Stylish Hat</h5>
+                            <p class="card-text">£25.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Gold_Ring.jpg" class="card-img-top" alt="Ring">
+                        <div class="card-body">
+                            <h5 class="card-title">Gold Ring</h5>
+                            <p class="card-text">£100.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Limited Editions Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center">Limited Editions</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Exclusive_Leather_Bracelet.webp" class="card-img-top" alt="Bracelet">
+                        <div class="card-body">
+                            <h5 class="card-title">Exclusive Leather Bracelet</h5>
+                            <p class="card-text">£50.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Premium_Watch.jpg" class="card-img-top" alt="Watch">
+                        <div class="card-body">
+                            <h5 class="card-title">Premium Watch</h5>
+                            <p class="card-text">£200.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Limited_Edition_Hat.png" class="card-img-top" alt="Hat">
+                        <div class="card-body">
+                            <h5 class="card-title">Limited Edition Hat</h5>
+                            <p class="card-text">£40.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Diamond_Ring.webp" class="card-img-top" alt="Ring">
+                        <div class="card-body">
+                            <h5 class="card-title">Diamond Ring</h5>
+                            <p class="card-text">£500.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discounts Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="text-center">Discounts</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/sunglasses.jpeg" class="card-img-top" alt="Sunglasses">
+                        <div class="card-body">
+                            <h5 class="card-title">Sunglasses</h5>
+                            <p class="card-text"><del>£80.00</del> £60.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Leather_Wallet.jpg" class="card-img-top" alt="Wallet">
+                        <div class="card-body">
+                            <h5 class="card-title">Leather Wallet</h5>
+                            <p class="card-text"><del>£50.00</del> £35.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Designer_Belt.webp" class="card-img-top" alt="Belt">
+                        <div class="card-body">
+                            <h5 class="card-title">Designer Belt</h5>
+                            <p class="card-text"><del>£45.00</del> £30.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="images/Warm_Scarf.jpg" class="card-img-top" alt="Scarf">
+                        <div class="card-body">
+                            <h5 class="card-title">Warm Scarf</h5>
+                            <p class="card-text"><del>£25.00</del> £18.00</p>
+                            <a href="product-detail.html" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Footer -->
+   <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p>&copy; 2025 Gentleman’s Gear Store. All Rights Reserved.</p>
+        <a href="terms.html" class="text-white">Terms of Service</a> | <a href="privacy.html" class="text-white">Privacy Policy</a>
+    </div>
+</footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
